@@ -8,7 +8,7 @@ export default function Calls () {
 
   return (
     <div className={styles.calls}>
-      <CallsHeader text="asfasf"/>
+      <CallsHeader/>
       <CallsList/>
     </div>
   )

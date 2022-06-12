@@ -1,5 +1,3 @@
-import React from 'react'
-import styles from './CallsList.module.css';
 import CallLine from '../CallLine/CallLine';
 import useFetchDataAndDispatch from '../../Hooks/useFetchDataAndDispatch';
 import {useSelector} from 'react-redux';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import styles from './Filters.module.css';
 import { ButtonDropdown,DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';

@@ -3,8 +3,7 @@ import styles from './Balance.module.css';
 import PlusIcon from '../../icons/PlusIcon.svg';
 
 export default function Filters() {
-
-  
+ 
 
 
   return (

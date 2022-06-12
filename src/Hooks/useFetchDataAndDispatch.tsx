@@ -1,4 +1,4 @@
-import React, {useEffect } from 'react'
+import  {useEffect } from 'react'
 import {useSelector, useDispatch} from 'react-redux';
 //THis hook fetch data and dispatch it in  state.results
 

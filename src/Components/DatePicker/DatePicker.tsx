@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './DatePicker.module.css';
-import { ButtonDropdown,DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
+import {ButtonDropdown,DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
 
 import {useSelector, useDispatch} from 'react-redux';
 import RewindArrowIcon from '../../icons/RewindArrowIcon';
@@ -34,7 +34,7 @@ export default function DatePicker() {
         end: new Date()
       }
     },
-    { name: "Указать даты",
+    { name: "Даты",
       value: {
         start: new Date(new Date().getTime()-(1000*60*60*24*3)),
         end: new Date()
@@ -66,7 +66,7 @@ function previousPeriodFilter(){
 };
 function nextPeriodFilter(){
   let newIndex=0;
-  DateFilterOptions.forEach((elem, index)=>{if (elem.name==ChosenFilter.periodFilterName){newIndex = index+1; if(newIndex==4){newIndex=0} }}) ;  
+  DateFilterOptions.forEach((elem, index)=>{if (elem.name==ChosenFilter.periodFilterName){newIndex = index+1; if(newIndex==4||newIndex==5){newIndex=0} }}) ;  
   changePeriod(DateFilterOptions[newIndex]); 
 };
 
@@ -98,6 +98,13 @@ function changePeriod (Period: any)  { //dispatch new periodFilter settings
           <DropdownItem className={styles.dropdownItem} onClick={()=>{changePeriod  (DateFilterOptions[3])}}>
             <p className={styles.dropdownText}>{DateFilterOptions[3].name}</p>
           </DropdownItem>
+          <DropdownItem className={styles.dropdownItem} onClick={()=>{changePeriod  (DateFilterOptions[4])}}>
+            <p className={styles.dropdownText}>Указать даты</p>
+            <input onChange={(e)=>{DateFilterOptions[4].value.start=new Date(Date.parse(e.target.value))}} defaultValue={ChosenFilter.periodFilter[0]} onClick={(e)=>{e.stopPropagation()}} type='date'/>
+            -
+            <input onChange={(e)=>{DateFilterOptions[4].value.end=new Date(Date.parse(e.target.value))}} defaultValue={ChosenFilter.periodFilter[1]} onClick={(e)=>{e.stopPropagation()}} type='date'/>
+          </DropdownItem>
+
         </DropdownMenu>
       </ButtonDropdown>
       <div onClick={()=>{nextPeriodFilter()}} className={styles.button_right}><RewindArrowIcon direction='Right'/></div>
