@@ -1,0 +1,57 @@
+.player{
+    height: 48px;
+    width: 352px;
+    border-radius: 10px;
+    background: #EAF0FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    margin-right: 0;
+
+}
+
+.playStopButton{
+    background: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.time{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100% ;
+    color: #122945;
+   
+    margin: 2px;
+
+    
+}
+
+.progressLine{
+   
+    height: 4px;
+    width: 164px;
+background: #ADBFDF;
+border-radius: 2px;
+margin: 4px;
+}
+
+.iconForPlayer{
+    margin: 10px; 
+
+}
+
+.playIcon{
+    height: 12px;
+    width: 12px;
+    
+    margin-top:9px;
+    margin-left:10px;
+    display: block;
+}

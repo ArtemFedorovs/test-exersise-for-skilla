@@ -1,0 +1,26 @@
+.balance{
+    position: absolute;
+width: 145px;
+height: 40px;
+right: 283px;
+top: 84px;
+
+background: #FFFFFF;
+border-radius: 48px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+Justify-content: space-between;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+padding: 0 10px 0 10px;
+color: #899CB1;
+}
+
+.blackText{
+    color: black
+}

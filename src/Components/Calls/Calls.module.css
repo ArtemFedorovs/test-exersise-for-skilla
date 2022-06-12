@@ -1,0 +1,14 @@
+
+.calls{
+    position: relative;
+    width: calc(100% - 360px - 120px);
+    left: 360px;
+    top: 200px;
+    
+    background: #FFFFFF;
+    /* тень */
+    
+    box-shadow: 0px 4px 5px #E9EDF3;
+    border-radius: 8px;
+    padding-left: 50px;
+}

@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -37,3 +39,14 @@
     transform: translateY(0px);
   }
 }
+
+
+.btn:focus {     /*deactivating bootstrap properties*/
+  outline: 0;
+  box-shadow: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+

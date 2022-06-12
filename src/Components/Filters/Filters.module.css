@@ -1,0 +1,26 @@
+.filters{
+    display: flex;
+flex-direction: row;
+align-items: center;
+Justify-content: space-between;
+padding: 0px;
+gap: 15px;
+margin-right: 120px;
+position: absolute;
+width: 753px;
+height: 21px;
+right: 0px;
+top: 158px;
+}
+
+.text{
+    color: #5E7793;
+    display: inline;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100% ;
+    
+
+}

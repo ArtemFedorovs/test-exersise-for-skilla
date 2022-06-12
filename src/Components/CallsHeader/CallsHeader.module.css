@@ -1,0 +1,48 @@
+
+.callsHeader{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow{
+
+    flex: 0 1 65px;
+}
+
+.person_avatar{
+
+    flex: 0 0 32px;
+}
+
+.client_info{
+
+    flex: 1 0 200px;
+}
+
+
+.time_of_call{
+    flex: 1 0 40px;
+}
+
+
+.from_site{
+    flex: 1 0 40px;
+}
+
+.source{
+    flex: 1 0 60px;
+}
+
+.score{
+    flex: 1 0 60px;
+}
+
+.time{
+    flex: 1 0 200px;
+    text-align: right;
+    margin-right: 30px;
+    
+}

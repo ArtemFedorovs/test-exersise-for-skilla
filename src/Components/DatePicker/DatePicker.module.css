@@ -1,0 +1,108 @@
+
+.datePicker{
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    right: 115px;
+    top: 92px;
+    
+}
+
+.button_left{
+    position: absolute;
+    width: 10px;
+    height: 24px;
+
+
+}
+
+
+.picker_value{
+    outline: none;
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 10px;
+
+}
+
+
+.button_right{
+
+    position: absolute;
+    width: 10px;
+    height: 24px;
+    left: 105px;
+
+}
+
+.dropdownItem{
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left; 
+    color: #899CB1;
+}
+
+
+.dropdownItem:hover{
+    color: black;
+background-color: #005FF8;
+
+}
+
+
+
+.dropdownHeaderText{
+    display: inline-block;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+     text-align: right;
+    color: #005FF8;
+    position: relative;
+    top: -6px;
+}
+
+.dateInput{
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+color: #899CB1;
+width: 70px;
+}
+
+.dateInput:focus{
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,       /*remove arrows on input*/
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+
