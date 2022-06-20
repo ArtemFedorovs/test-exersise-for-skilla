@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-exersise-for-skilla/static/css/main.61efd1d2.css",
-    "main.js": "/test-exersise-for-skilla/static/js/main.fab784ca.js",
+    "main.css": "/test-exersise-for-skilla/static/css/main.ff21c1ea.css",
+    "main.js": "/test-exersise-for-skilla/static/js/main.0a7a36d8.js",
     "static/media/UserPhoto.png": "/test-exersise-for-skilla/static/media/UserPhoto.bb8dcf94346b89095be0.png",
     "static/media/Logo.svg": "/test-exersise-for-skilla/static/media/Logo.2e13eb2eae3a8d6512709bc4006e546b.svg",
     "static/media/SettingsIcon.svg": "/test-exersise-for-skilla/static/media/SettingsIcon.243f7ee3462d3a2a9f70509dffa1f4f1.svg",
@@ -9,24 +9,26 @@
     "static/media/ResultsIcon.svg": "/test-exersise-for-skilla/static/media/ResultsIcon.74a5a488ef937da69f1057b080ea79a6.svg",
     "static/media/ClientsIcon.svg": "/test-exersise-for-skilla/static/media/ClientsIcon.3995a314225efba2dba78fbb0107cb4c.svg",
     "index.html": "/test-exersise-for-skilla/index.html",
-    "static/media/CallsIcon.svg": "/test-exersise-for-skilla/static/media/CallsIcon.51d61ff1fdfacd7ec3fc3458938fe556.svg",
+    "static/media/CallsIcon.svg": "/test-exersise-for-skilla/static/media/CallsIcon.adc4d3b03cf91b7bbca20fb8d8f0ccc4.svg",
     "static/media/SearchIcon.svg": "/test-exersise-for-skilla/static/media/SearchIcon.67d5cbe2fe01afbcbbea7a036978d5e4.svg",
     "static/media/InfoIcon.svg": "/test-exersise-for-skilla/static/media/InfoIcon.d218a72ccc90d124ae8c0407dc1ed4f7.svg",
     "static/media/ReportIcon.svg": "/test-exersise-for-skilla/static/media/ReportIcon.5b4bd7a66f5a93dfb89a4b961365446a.svg",
     "static/media/PlayIcon.svg": "/test-exersise-for-skilla/static/media/PlayIcon.f151acc01a5a14ad1a34c07a4d9c53d6.svg",
     "static/media/EmployeeIcon.svg": "/test-exersise-for-skilla/static/media/EmployeeIcon.2b60c27b787a15a2fda0f4f13d895203.svg",
     "static/media/OrdersIcon.svg": "/test-exersise-for-skilla/static/media/OrdersIcon.3443c63e2a39b87c06676eca3e4446b2.svg",
+    "static/media/InfoForButtonIcon.svg": "/test-exersise-for-skilla/static/media/InfoForButtonIcon.7d12d4370c2819197d6a7cf4740f915e.svg",
+    "static/media/PlusForButtonIcon.svg": "/test-exersise-for-skilla/static/media/PlusForButtonIcon.e464cd2234a663bcfe71e4b53701905d.svg",
     "static/media/MailIcon.svg": "/test-exersise-for-skilla/static/media/MailIcon.1d3e61b12abfddcf19dfa6d3abae8560.svg",
     "static/media/PlusIcon.svg": "/test-exersise-for-skilla/static/media/PlusIcon.51f1be688be6ccf55b6e39d18c713300.svg",
     "static/media/DocsIcon.svg": "/test-exersise-for-skilla/static/media/DocsIcon.fb1f1c7715ad79ebdde97af7b7b61ebe.svg",
     "static/media/CloseIcon.svg": "/test-exersise-for-skilla/static/media/CloseIcon.b03b09efdc6556e85c858455760893a8.svg",
     "static/media/DownloadIcon.svg": "/test-exersise-for-skilla/static/media/DownloadIcon.d990655a7bbfeb31b50dfd39628563ed.svg",
     "static/media/StopIcon.svg": "/test-exersise-for-skilla/static/media/StopIcon.54d1347f86fe86580205e3a99c586e3f.svg",
-    "main.61efd1d2.css.map": "/test-exersise-for-skilla/static/css/main.61efd1d2.css.map",
-    "main.fab784ca.js.map": "/test-exersise-for-skilla/static/js/main.fab784ca.js.map"
+    "main.ff21c1ea.css.map": "/test-exersise-for-skilla/static/css/main.ff21c1ea.css.map",
+    "main.0a7a36d8.js.map": "/test-exersise-for-skilla/static/js/main.0a7a36d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.61efd1d2.css",
-    "static/js/main.fab784ca.js"
+    "static/css/main.ff21c1ea.css",
+    "static/js/main.0a7a36d8.js"
   ]
 }
