@@ -8,39 +8,77 @@
 }
 
 .arrow{
-
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
     flex: 0 1 65px;
 }
 
 .person_avatar{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
+    flex: 0 0 70px;
 
-    flex: 0 0 32px;
 }
 
 .client_info{
-
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
     flex: 1 0 200px;
 }
 
 
 .time_of_call{
-    flex: 1 0 40px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
+    flex: 0 0 80px;
 }
 
 
 .from_site{
-    flex: 1 0 40px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
+    flex: 0 0 40px;
 }
 
 .source{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
     flex: 1 0 60px;
 }
 
 .score{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
     flex: 1 0 60px;
 }
 
 .time{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #899CB1;
     flex: 1 0 200px;
     text-align: right;
     margin-right: 30px;

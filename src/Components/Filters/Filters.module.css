@@ -13,6 +13,22 @@ right: 0px;
 top: 158px;
 }
 
+.dropdownItem{
+    color: #5E7793;
+    display: inline;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100% ;
+  
+
+}
+
+.dropdownItem:hover{
+    color: black;
+background-color: #deeafe;}
+
 .text{
     color: #5E7793;
     display: inline;
@@ -21,6 +37,6 @@ top: 158px;
     font-weight: 400;
     font-size: 15px;
     line-height: 100% ;
-    
+  
 
 }

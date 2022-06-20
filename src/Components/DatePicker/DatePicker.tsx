@@ -85,24 +85,24 @@ function changePeriod (Period: any)  { //dispatch new periodFilter settings
           <CalendarIcon inlineStyle={{position: "relative", top: "-7px", left: "-10px",}} hover={isCalendarHover}/>
           <p className={styles.dropdownHeaderText}>{ChosenFilter.periodFilterName}</p>
         </DropdownToggle>
-        <DropdownMenu>
+        <DropdownMenu className={styles.dropdownMenu}>
           <DropdownItem className={styles.dropdownItem} onClick={()=>{changePeriod  (DateFilterOptions[0])}}>
-            <p className={styles.dropdownText}>{DateFilterOptions[0].name}</p>
+            {DateFilterOptions[0].name}
           </DropdownItem>
           <DropdownItem className={styles.dropdownItem} onClick={()=>{changePeriod  (DateFilterOptions[1])}}>
-            <p className={styles.dropdownText}>{DateFilterOptions[1].name}</p>
+            {DateFilterOptions[1].name}
           </DropdownItem>
           <DropdownItem  className={styles.dropdownItem} onClick={()=>{changePeriod  (DateFilterOptions[2])}}>
-            <p className={styles.dropdownText}>{DateFilterOptions[2].name}</p>
+            {DateFilterOptions[2].name}
           </DropdownItem>
           <DropdownItem className={styles.dropdownItem} onClick={()=>{changePeriod  (DateFilterOptions[3])}}>
-            <p className={styles.dropdownText}>{DateFilterOptions[3].name}</p>
+            {DateFilterOptions[3].name}
           </DropdownItem>
-          <DropdownItem className={styles.dropdownItem} onClick={()=>{changePeriod  (DateFilterOptions[4])}}>
-            <p className={styles.dropdownText}>Указать даты</p>
-            <input onChange={(e)=>{DateFilterOptions[4].value.start=new Date(Date.parse(e.target.value))}} defaultValue={ChosenFilter.periodFilter[0]} onClick={(e)=>{e.stopPropagation()}} type='date'/>
+          <DropdownItem className={styles.dropdownItemChoseDate} onClick={()=>{changePeriod  (DateFilterOptions[4])}}>
+            Указать даты <br/>
+            <input className={styles.dateInput} onChange={(e)=>{DateFilterOptions[4].value.start=new Date(Date.parse(e.target.value))}} defaultValue={ChosenFilter.periodFilter[0]} onClick={(e)=>{e.stopPropagation()}} type='date'/>
             -
-            <input onChange={(e)=>{DateFilterOptions[4].value.end=new Date(Date.parse(e.target.value))}} defaultValue={ChosenFilter.periodFilter[1]} onClick={(e)=>{e.stopPropagation()}} type='date'/>
+            <input className={styles.dateInput}  onChange={(e)=>{DateFilterOptions[4].value.end=new Date(Date.parse(e.target.value))}} defaultValue={ChosenFilter.periodFilter[1]} onClick={(e)=>{e.stopPropagation()}} type='date'/>
           </DropdownItem>
 
         </DropdownMenu>

@@ -37,21 +37,35 @@
 }
 
 .dropdownItem{
-
+ 
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 40px;
+    text-align: left; 
+    color: #899CB1;
+}
+
+.dropdownItemChoseDate{
+ 
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     text-align: left; 
     color: #899CB1;
 }
 
 
-.dropdownItem:hover{
+.dropdownItem:hover {
     color: black;
-background-color: #005FF8;
+background-color: #deeafe;
+}
 
+.dropdownItemChoseDate:hover{
+    color: black;
+background-color: #deeafe;
 }
 
 
@@ -79,10 +93,15 @@ font-weight: 400;
 font-size: 14px;
 line-height: 28px;
 color: #899CB1;
-width: 70px;
+width: 74px;
 }
 
 .dateInput:focus{
+    border: none;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.dateInput:active{
     border: none;
     background-color: rgb(255, 255, 255, 0);
 }
@@ -105,4 +124,8 @@ input[type="number"]:focus {
     -moz-appearance: textfield;
 }
 
+.dropdownMenu{
+    width: 204px;
+    padding: 0;
+}
 

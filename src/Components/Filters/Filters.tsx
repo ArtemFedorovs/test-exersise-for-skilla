@@ -24,17 +24,17 @@ export default function Filters() {
       <ButtonDropdown  isOpen={isDropdown} toggle={() => setDropdown(!isDropdown)}>
         <DropdownToggle color="white" >
           <p className={styles.text}>{ChosenFilter} </p>
-          <RewindArrowIcon direction="Bottom"/>
+          {isDropdown?<RewindArrowIcon direction="Top"/>:<RewindArrowIcon direction="Bottom"/>}
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem onClick={()=>{changeChosenType('Все типы')}}>
-            <p className={styles.text}>Все типы</p>
+          <DropdownItem className={styles.dropdownItem} onClick={()=>{changeChosenType('Все типы')}}>
+            Все типы
           </DropdownItem>
-          <DropdownItem onClick={()=>{changeChosenType('Входящие')}}>
-            <p className={styles.text}>Входящие</p>
+          <DropdownItem className={styles.dropdownItem} onClick={()=>{changeChosenType('Входящие')}}>
+            Входящие
           </DropdownItem>
-          <DropdownItem  onClick={()=>{changeChosenType('Исходящие')}}>
-            <p className={styles.text}>Исходящие</p>
+          <DropdownItem className={styles.dropdownItem}  onClick={()=>{changeChosenType('Исходящие')}}>
+            Исходящие
           </DropdownItem>
         </DropdownMenu>
       </ButtonDropdown>

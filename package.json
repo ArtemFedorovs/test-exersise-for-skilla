@@ -2,6 +2,7 @@
   "name": "te_skilla",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://artemfedorovs.github.io/test-exersise-for-skilla/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@types/reactstrap": "^8.7.2"
+    "@types/reactstrap": "^8.7.2",
+    "gh-pages": "^4.0.0"
   }
 }

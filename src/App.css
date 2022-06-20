@@ -41,7 +41,7 @@
 }
 
 
-.btn:focus {     /*deactivating bootstrap properties*/
+.btn:focus{     /*deactivating bootstrap properties*/
   outline: 0;
   box-shadow: none;
 }

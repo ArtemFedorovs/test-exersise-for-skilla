@@ -24,6 +24,7 @@ Justify-content: space-between;
     font-size: 15px;
    
     color: #899CB1;
+
 }
 
 .blackText{
@@ -50,4 +51,8 @@ Justify-content: space-between;
 
 .redText{
     color: red
+}
+
+.icon{
+    margin-right: 64px;
 }
