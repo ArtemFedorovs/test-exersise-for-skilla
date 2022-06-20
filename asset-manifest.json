@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-exersise-for-skilla/static/css/main.251c051b.css",
-    "main.js": "/test-exersise-for-skilla/static/js/main.66dd51b2.js",
+    "main.js": "/test-exersise-for-skilla/static/js/main.c9e32bda.js",
     "static/media/UserPhoto.png": "/test-exersise-for-skilla/static/media/UserPhoto.bb8dcf94346b89095be0.png",
     "static/media/Logo.svg": "/test-exersise-for-skilla/static/media/Logo.2e13eb2eae3a8d6512709bc4006e546b.svg",
     "static/media/SettingsIcon.svg": "/test-exersise-for-skilla/static/media/SettingsIcon.243f7ee3462d3a2a9f70509dffa1f4f1.svg",
@@ -25,10 +25,10 @@
     "static/media/DownloadIcon.svg": "/test-exersise-for-skilla/static/media/DownloadIcon.d990655a7bbfeb31b50dfd39628563ed.svg",
     "static/media/StopIcon.svg": "/test-exersise-for-skilla/static/media/StopIcon.54d1347f86fe86580205e3a99c586e3f.svg",
     "main.251c051b.css.map": "/test-exersise-for-skilla/static/css/main.251c051b.css.map",
-    "main.66dd51b2.js.map": "/test-exersise-for-skilla/static/js/main.66dd51b2.js.map"
+    "main.c9e32bda.js.map": "/test-exersise-for-skilla/static/js/main.c9e32bda.js.map"
   },
   "entrypoints": [
     "static/css/main.251c051b.css",
-    "static/js/main.66dd51b2.js"
+    "static/js/main.c9e32bda.js"
   ]
 }
