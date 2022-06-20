@@ -10,7 +10,7 @@ export default function RewindArrowIcon( props: ArrowIconPropsType) {
   let arrowdirection:string='';
   if (props.direction  === "Right") {arrowdirection="rotate(180)"}  //left direction is a default state
   if (props.direction  === "Bottom") {arrowdirection="rotate(270)"} 
-  if (props.direction  === "Top") {arrowdirection="rotate(90npm)"} 
+  if (props.direction  === "Top") {arrowdirection="rotate(90)"} 
   const [ArrowColor, setArrowColor] = useState('#ADBFDF')
   function Enter(){setArrowColor("#005FF8")};
   function Leave(){setArrowColor("#ADBFDF")};
